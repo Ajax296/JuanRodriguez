@@ -1,0 +1,43 @@
+.task-form {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.form-input, .form-select {
+  padding: 10px;
+  border: 1px solid #444444;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #444444;
+  color: #e0e0e0;
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.form-input:focus, .form-select:focus {
+  outline: none;
+  border-color: #37b8ad;
+}
+
+.form-button {
+  background-color: #37b8ad;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+  transition: background-color 0.2s;
+  margin-top: 5px;
+}
+
+.form-button:hover {
+  background-color: #2a8a80;
+  transform: translateY(-1px);
+}
+
+.form-button:active {
+  transform: translateY(0);
+}

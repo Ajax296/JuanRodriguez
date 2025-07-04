@@ -1,0 +1,8 @@
+.task-list {
+  padding: 0;
+  margin: 20px 0 0;
+  max-height: 60vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #37b8ad #444444;
+}
